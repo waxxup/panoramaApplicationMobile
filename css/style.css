@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'manifesto';
+    src: url('../font/MANIFESTO.ttf');
+}
+
 body{
 
     height: 100%;
@@ -36,6 +41,7 @@ body{
 }
 .titre-appli {
 
+    font-family: 'manifesto';
     font-size: 2em;
     color: white;
     text-align: center;
@@ -55,7 +61,7 @@ body{
 }
 .btn-perso {
 
-
+    font-family: 'manifesto';
     color: #3fab9d;
     background-color: #fff;
     border: 2px solid #324960;
@@ -94,16 +100,18 @@ body{
 }
 .result {
 
-
+    color: #3fab9d;
     text-align: center;
 
 }
 .mes-ingredients {
 
+    font-family: 'manifesto';
     background-color: #ff6f7d;
-    min-height: 150px;
+    min-height: 200px;
     border-radius: 10px;
     margin-top: 20px;
+
 
 
 }
@@ -137,8 +145,10 @@ img {
 }
 .ui-autocomplete-input {
 
+
+    font-family: 'manifesto';
     margin-bottom:50px;
-    font-size: 1.8em;
+    font-size: 1.5em;
     border-radius: 5px;
     width: 100%;
     border: none;
