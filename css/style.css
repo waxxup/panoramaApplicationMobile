@@ -126,6 +126,11 @@ background-color: #3caa9c;
     padding-top: 4%;
 
 }
+.position-img {
+
+    padding-bottom: 3px;
+
+}
 .result span {
 
 
@@ -148,7 +153,7 @@ img {
 }
 .ui-autocomplete-input {
 
-
+    padding: 4px 4px 4px 4px;
     font-family: 'manifesto';
     margin-bottom:50px;
     font-size: 1.3em;
@@ -168,4 +173,13 @@ img {
 }
 .place::-webkit-input-placeholder {
     color: red
+}
+.barre-bas {
+
+    background-color: #79c8c1;
+    border-radius: 5px;
+    height: 15px;
+    margin-top: 5%;
+    padding-bottom: 20px;
+
 }
