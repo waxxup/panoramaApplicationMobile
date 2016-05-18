@@ -28,6 +28,6 @@ var $local_source = [
                     ];
 
 $("#input_array").autocomplete(
-    {minLength: 3},
+    {minLength: 2},
     { source: $local_source }
 );
