@@ -17,11 +17,31 @@
 
 </head>
 <body>
-<input type="hidden" name="array_final">
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="barre"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="titre-appli">Ajoutez vos ingrédients !</h1>
+        </div>
+    </div>
+            <input type="hidden" name="array_final">
     <div id="search">
         <div id="log"></div>
-        <input type="text" id="input_array" placeholder="Ajouter un ingredient">
-        <button onclick="addFunction()" id ="add">Ajouter ingredient</button>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <input type="text" id="input_array" placeholder="Ajouter un ingredient">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-md-offset-5">
+                    <button class="btn btn-perso" onclick="addFunction()" id ="add">Ajouter ingredient</button>
+                </div>
+            </div>
 
         <select id="select">
 
@@ -34,7 +54,7 @@
         </select>
     </div>
     <div id="resultats"></div>
-
+</div>
 
 <script type="text/javascript" charset="utf-8" src="js/ingredient.js"></script>
 <script type="text/javascript" charset="utf-8" src="js/script.js"></script>
