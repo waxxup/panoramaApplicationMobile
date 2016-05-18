@@ -3,19 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="9877170c-d497-4c3c-9a23-e6f9ebdb9019" name="Default" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/autocomplete.js" afterPath="$PROJECT_DIR$/js/autocomplete.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
 =======
+>>>>>>> ac6f260285f0b919aa8b8d78dbea0cacc7443031
+=======
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
 <<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/ingredient.js" afterPath="$PROJECT_DIR$/js/ingredient.js" />
 =======
+>>>>>>> fcfce633599e5c69f5c069ebe569beb3f05be91a
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
 >>>>>>> 3ac3e275053c0e513f1638a7500a7c31f60a3e2a
+<<<<<<< HEAD
 >>>>>>> fcfce633599e5c69f5c069ebe569beb3f05be91a
+=======
+>>>>>>> ac6f260285f0b919aa8b8d78dbea0cacc7443031
     </list>
     <ignored path="PanoramaAppliMobile.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -119,11 +126,31 @@
     </splitter>
 =======
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49027237">
+            <state vertical-scroll-proportion="-5.90625">
               <caret line="1140" column="42" selection-start-line="1140" selection-start-column="42" selection-end-line="1140" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8857143">
+              <caret line="182" column="25" selection-start-line="182" selection-start-column="25" selection-end-line="182" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.46875">
+              <caret line="69" column="33" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -150,8 +177,8 @@
       <list>
         <option value="$PROJECT_DIR$/js/autocomplete.js" />
         <option value="$PROJECT_DIR$/js/ingredient.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -162,8 +189,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="6" />
-    <option name="y" value="58" />
+    <option name="x" value="498" />
+    <option name="y" value="35" />
     <option name="width" value="1924" />
     <option name="height" value="1028" />
   </component>
@@ -296,11 +323,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="58" width="1924" height="1028" extended-state="0" />
-    <editor active="false" />
+    <frame x="498" y="35" width="1924" height="1028" extended-state="1" />
+    <editor active="true" />
     <layout>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26025918" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10583153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> ac6f260285f0b919aa8b8d78dbea0cacc7443031
 =======
 <<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11147011" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -437,8 +468,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49027237">
+        <state vertical-scroll-proportion="-5.90625">
           <caret line="1140" column="42" selection-start-line="1140" selection-start-column="42" selection-end-line="1140" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.46875">
+          <caret line="69" column="33" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8857143">
+          <caret line="182" column="25" selection-start-line="182" selection-start-column="25" selection-end-line="182" selection-end-column="25" />
           <folding />
         </state>
       </provider>
