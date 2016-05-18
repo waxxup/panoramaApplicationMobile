@@ -9,11 +9,6 @@ $("#select").change(function() {
 });
 
 
-function compareFunction(param,param2){
-    
-}
-
-
 function addFunction(){
     var actual = document.getElementById('input_array').value;
     var found = $.inArray(actual, $local_source) > -1;
@@ -52,6 +47,7 @@ function submitFunction(){
         for (var i = 0; i < cocktails.length; i++) {
             for (var a = 1; a < (cocktails[i].length - 2); a++) {
                 var found = $.inArray(cocktails[i][a], result) > -1;
+                console.log(found + "  / " + cocktails[i][a]);
                 if (found == false){
                 missing.push(a);
                 isOk++;
@@ -67,7 +63,6 @@ function submitFunction(){
                 }
             }
             else if(isOk < filtre){
-                console.log("Nom du cocktail:  " + cocktails[i][0]);
                 document.getElementById("resultats").innerHTML=written + "<h1>" + cocktails[i][0] + "</h1><h2>Recette:</h2><img src='img/" + cocktails[i][(cocktails[i].length - 2)] + "'>";
                 written =  document.getElementById("resultats").innerHTML;
 //                for (var a = 1; a < (cocktails[i].length - 2); a++) {
@@ -79,7 +74,6 @@ function submitFunction(){
 //                }
                  for (var u = 0; u < (cocktails[i][(cocktails[i].length - 1)].length); u++) {
                     var found = $.inArray((parseInt(u) + 1), missing) > -1;
-                    console.log(found);
                     if(found == false){
                         document.getElementById("resultats").innerHTML=written + "<li>" + cocktails[i][[(cocktails[i].length - 1)]][u] + "</li>";
                     }
