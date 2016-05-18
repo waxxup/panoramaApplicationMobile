@@ -1,3 +1,9 @@
+body {
+
+    background-color: ;
+
+}
+
 .autocomplete-selected { display:none }
 #resultats{
     min-height: 100px;

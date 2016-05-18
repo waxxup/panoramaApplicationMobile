@@ -1,25 +1,44 @@
-<script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
-<script type="text/javascript" charset="utf-8" src="js/jquery-ui.min.js"></script>
- <link rel="stylesheet" type="text/css" href="css/style.css">
+<!DOCTYPE html>
+<html lang="fr">
+<head>
 
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <title>THE BAR</title>
+
+
+        <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/jquery-ui.min.js"></script>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
 <input type="hidden" name="array_final">
-<div id="search">
-<div id="log"></div>
-<input type="text" id="input_array" placeholder="Ajouter un ingredient">
-<button onclick="addFunction()" id ="add">Ajouter ingredient</button>
-<select id="select">
-    
-    
-    <option value="2">1</option>
-    <option value="3">2</option>
-    <option value="4">3</option>
-    <option value="5">4</option>
-    <option value="6">5</option>
-    
-</select>
-</div>
+    <div id="search">
+        <div id="log"></div>
+        <input type="text" id="input_array" placeholder="Ajouter un ingredient">
+        <button onclick="addFunction()" id ="add">Ajouter ingredient</button>
 
-<div id="resultats"></div>
+        <select id="select">
+
+            <option value="2">1</option>
+            <option value="3">2</option>
+            <option value="4">3</option>
+            <option value="5">4</option>
+            <option value="6">5</option>
+    
+        </select>
+    </div>
+    <div id="resultats"></div>
+
+
 <script type="text/javascript" charset="utf-8" src="js/ingredient.js"></script>
 <script type="text/javascript" charset="utf-8" src="js/script.js"></script>
 <script type="text/javascript" charset="utf-8" src="js/autocomplete.js"></script>
+
+</body>
+</html>
