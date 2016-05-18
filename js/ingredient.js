@@ -44,6 +44,29 @@ var cocktails = [
             "100g de fraises"
                         
         ]
+    ],
+
+    [
+        'Mai Tai',
+            'rhum blanc',
+            'rhum ambre',
+            'triple sec',
+            'cirop de sucre de canne',
+            'jus de citron',
+            "sirop d'orgeat",
+
+            'maitai.jpg',
+
+        [
+            "3cl de rhum blanc",
+            "3cl de rhum ambre",
+            "2cl de triple sec",
+            "1cl de cirop de sucre de canne",
+            "3cl de jus de citron",
+            "1cl de sirop d'orgeat"
+
+        ]
+
     ]
     
 ]
