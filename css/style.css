@@ -1,0 +1,29 @@
+.autocomplete-selected { display:none }
+#resultats{
+    min-height: 100px;
+    max-height: auto;
+    width: 80%;
+    margin-left : 10%;
+    background: red;
+    
+}
+.miss{color:pink}
+#search{
+     min-height: 100px;
+    max-height: auto;
+    width: 80%;
+    margin-left : 10%;
+    border: solid blue;
+}
+.ui-helper-hidden-accessible{
+    display: none
+}
+.cocktail{
+    min-height: 100px;
+    max-height: auto;
+    width: 80%;
+    margin-left:10%;
+}
+.place::-webkit-input-placeholder {
+    color: red
+}
