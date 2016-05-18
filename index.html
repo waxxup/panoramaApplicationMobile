@@ -30,21 +30,45 @@
         </div>
     </div>
             <input type="hidden" name="array_final">
-    <div id="search">
-        <select id="select">
-
-            <option value="1">0</option>
-            <option value="2">1</option>
-            <option value="3">2</option>
-            <option value="4">3</option>
-            <option value="5">4</option>
-        </select>
             <div class="row">
                 <div class="col-xs-10">
                     <input type="text" id="input_array" placeholder="Ajouter un ingredient">
                 </div>
                 <div class="col-xs-2">
-                    <img src="img/food.png" alt="engrenage pour pop-up">
+
+                <!-- Button trigger modal -->
+                <!--<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                  ingrédient manquant
+                </button>-->
+                <img src="img/food.png" alt="engrenage pour pop-up" data-toggle="modal" data-target="#myModal">
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Selectionner le nombre d'ingredients manquants toleres</h4>
+                      </div>
+                      <div class="modal-body">
+                        <div id="search">
+                                    <select id="select">
+                                        <option value="1">0 ingrédient manquant toléré</option>
+                                        <option value="2">1 ingrédient manquant toléré</option>
+                                        <option value="3">2 ingrédients manquants tolérés</option>
+                                        <option value="4">3 ingrédients manquants tolérés</option>
+                                        <option value="5">4 ingrédients manquants tolérés</option>
+                                    </select>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                    <!--<img src="img/food.png" alt="engrenage pour pop-up">-->
                 </div>
             </div>
             <div class="row">
@@ -76,6 +100,7 @@
 <script type="text/javascript" charset="utf-8" src="js/ingredient.js"></script>
 <script type="text/javascript" charset="utf-8" src="js/script.js"></script>
 <script type="text/javascript" charset="utf-8" src="js/autocomplete.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/bootstrap.min.js"></script>
 
 </body>
 </html>

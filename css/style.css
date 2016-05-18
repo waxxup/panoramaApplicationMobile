@@ -169,3 +169,20 @@ img {
 .place::-webkit-input-placeholder {
     color: red
 }
+
+.modal-content {
+    background-color: #ff6f7d;
+}
+
+.modal-content h4 {
+    font-family: 'manifesto';
+    color: white;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.modal-dialog {
+    margin-top: 50%;
+}
