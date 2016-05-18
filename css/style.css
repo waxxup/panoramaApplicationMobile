@@ -65,6 +65,10 @@ background-color: #3caa9c;
     background-color: #fff;
     border: 2px solid #324960;
 }
+.btn2{
+    background-color: #3caa9c;
+    color:white;
+}
 .btn-perso:focus,
 .btn-perso.focus {
 
@@ -179,6 +183,8 @@ img {
 
 .modal-content {
     background-color: #ff6f7d;
+       margin-left:auto;
+    margin-right:4%;
 }
 
 .modal-content h4 {
@@ -188,6 +194,8 @@ img {
 
 .modal-body {
     text-align: center;
+    margin-left:auto;
+    margin-right:3%;
 }
 
 .modal-dialog {
