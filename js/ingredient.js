@@ -28,6 +28,7 @@ var cocktails = [
         "5cl de lait de coco"
     ]
     ],
+
     [
       'Daiquiri aux fraises',
         'liqueur de fraises',
@@ -55,7 +56,7 @@ var cocktails = [
             'jus de citron',
             "sirop d'orgeat",
 
-            'maitai.jpg',
+            'maitai.jpeg',
 
         [
             "3cl de rhum blanc",
