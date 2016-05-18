@@ -4,31 +4,30 @@
 }
 
 body{
-
+background-color: #3caa9c;
     height: 100%;
-
+    background-color: #3caa9c;
 }
 
 .container {
 
-    background-color: #3caa9c;
     height: 100%;
 }
 
 .autocomplete-selected { display:none }
 #resultats{
+
     min-height: 100px;
-    max-height: auto;
     width: 80%;
     margin-left : 10%;
-    background: red;
+
     
 }
 .miss{color:pink}
 #search{
 
     min-height: 100px;
-    max-height: auto;
+
 
 }
 .barre{
@@ -164,7 +163,6 @@ img {
 }
 .cocktail{
     min-height: 100px;
-    max-height: auto;
     width: 80%;
     margin-left:10%;
 }

@@ -9,13 +9,18 @@ $("#select").change(function() {
 });
 
 
+function compareFunction(param,param2){
+    
+}
+
+
 function addFunction(){
     var actual = document.getElementById('input_array').value;
     var found = $.inArray(actual, $local_source) > -1;
     var found2 = $.inArray(actual, result) > -1;
     document.getElementById("input_array").value = "";
     $('#input_array').removeClass('place');
-    $('#input_array').attr("placeholder", "Ajouter un ingrédient");
+    $('#input_array').attr("placeholder", "Ajouter un ingredient");
     if(found == true && found2 == false){
         if(actual.length !== 0){
             result.push(actual);
@@ -28,11 +33,11 @@ function addFunction(){
         }
     }
     else if (found ==  false){
-        $('#input_array').attr("placeholder", "Ingrédient inconnu");
+        $('#input_array').attr("placeholder", "Ingredient inconnu");
         $('#input_array').addClass('place');
     }
     else{
-        $('#input_array').attr("placeholder", "Ingrédient déjà entré");
+        $('#input_array').attr("placeholder", "Ingredient deja entre");
         $('#input_array').addClass('place');
     }
     submitFunction();
