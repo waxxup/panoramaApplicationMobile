@@ -9,6 +9,38 @@ background-color: #3caa9c;
     background-color: #3caa9c;
 }
 
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: 'manifesto';
+    color:white;
+}
+
+
+
+.miss{
+    color:#ff6f7d;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+.aqui {
+    color: white;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+
 .container {
 
     height: 100%;
