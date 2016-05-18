@@ -21,7 +21,9 @@ var $local_source = [
                     "jus de tomate",
                     "rhum ambre",
                     "triple sec",
-                    "sirop d'orgeat"
+                    "sirop d'orgeat",
+                    "jus de banane",
+                    "canelle"
     
                     ];
 
