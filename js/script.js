@@ -39,7 +39,7 @@ function addFunction(){
 }
 
 function submitFunction(){
-    var isOk = 0; 
+    var isOk = 0;
     var missing = [];
     var written = "" ;
     document.getElementById("resultats").innerHTML=written;
@@ -47,50 +47,62 @@ function submitFunction(){
         for (var i = 0; i < cocktails.length; i++) {
             for (var a = 1; a < (cocktails[i].length - 2); a++) {
                 var found = $.inArray(cocktails[i][a], result) > -1;
-                console.log(found + "  / " + cocktails[i][a]);
                 if (found == false){
-                missing.push(a);
-                isOk++;
+                    missing.push(a);
+                    isOk++;
                 }
             }
             if(isOk == 0){
+
+
                 console.log("Nom du cocktail:  " + cocktails[i][0]);
                 document.getElementById("resultats").innerHTML=written + "<h1>" + cocktails[i][0] + "</h1><h2>Recette:</h2><img src='img/" + cocktails[i][(cocktails[i].length - 2)] + "'>";
-                written =  document.getElementById("resultats").innerHTML;
+                written =  document.getElementById("resultats").innerHTML + "<div class='barre'></div>";
                 for (var u = 0; u < (cocktails[i][(cocktails[i].length - 1)].length); u++) {
-                    document.getElementById("resultats").innerHTML=written + "<li>" + cocktails[i][[(cocktails[i].length - 1)]][u] + "</li>";
-                    written =  document.getElementById("resultats").innerHTML;
+                    document.getElementById("resultats").innerHTML=written + "<li class='aqui'>" + cocktails[i][[(cocktails[i].length - 1)]][u] + "</li>";
+                    written =  document.getElementById("resultats").innerHTML + "<div class='barre'></div>";
                 }
             }
             else if(isOk < filtre){
+
+
+                console.log("Nom du cocktail:  " + cocktails[i][0]);
                 document.getElementById("resultats").innerHTML=written + "<h1>" + cocktails[i][0] + "</h1><h2>Recette:</h2><img src='img/" + cocktails[i][(cocktails[i].length - 2)] + "'>";
-                written =  document.getElementById("resultats").innerHTML;
+                written =  document.getElementById("resultats").innerHTML ;
 //                for (var a = 1; a < (cocktails[i].length - 2); a++) {
 //                    var found = $.inArray(cocktails[i][a], missing) > -1;
 //                    if(found == true){
 //                        console.log(cocktails[i][a] + "   | ingrédient manquant");
 //                    }
-//                    
+//
 //                }
-                 for (var u = 0; u < (cocktails[i][(cocktails[i].length - 1)].length); u++) {
+                for (var u = 0; u < (cocktails[i][(cocktails[i].length - 1)].length); u++) {
                     var found = $.inArray((parseInt(u) + 1), missing) > -1;
+                    console.log(found);
                     if(found == false){
-                        document.getElementById("resultats").innerHTML=written + "<li>" + cocktails[i][[(cocktails[i].length - 1)]][u] + "</li>";
+                        document.getElementById("resultats").innerHTML=written + "<li class='aqui'>" + cocktails[i][[(cocktails[i].length - 1)]][u] + "</li>";
                     }
                     else{
                         document.getElementById("resultats").innerHTML=written + "<li class='miss'>" + cocktails[i][[(cocktails[i].length - 1)]][u] + "</li>";
                     }
-                    written =  document.getElementById("resultats").innerHTML;
+                    written =  document.getElementById("resultats").innerHTML ;
+
+
                 }
             }
+
+
             isOk = 0;
             missing = [];
-            written = document.getElementById("resultats").innerHTML;
+            written = document.getElementById("resultats").innerHTML + "<div class='barre'></div>";
+
         }
         written = "";
+
     }
-    
+
 }
+
 
 function deleteFunction(param){
     result.splice(param , 1);
