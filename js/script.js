@@ -1,6 +1,13 @@
 var result = [];
 $('#submit').hide();
 var writtenlog = "";
+var filtre = 1;
+
+$("#select").change(function() {
+    filtre = $("#select").val();
+    submitFunction();
+});
+
 
 function addFunction(){
     var actual = document.getElementById('input_array').value;
@@ -54,7 +61,7 @@ function submitFunction(){
                     written =  document.getElementById("resultats").innerHTML;
                 }
             }
-            else if(isOk < 3){
+            else if(isOk < filtre){
                 console.log("Nom du cocktail:  " + cocktails[i][0]);
                 document.getElementById("resultats").innerHTML=written + "<h1>" + cocktails[i][0] + "</h1><h2>Recette:</h2><img src='img/" + cocktails[i][(cocktails[i].length - 2)] + "'>";
                 written =  document.getElementById("resultats").innerHTML;
