@@ -100,8 +100,11 @@ body{
 }
 .result {
 
-    color: #3fab9d;
-    text-align: center;
+    color: #fff;
+    list-style-type: none;
+    background: url(../img/liste.png) no-repeat 35px 4px;
+    padding-left: 50px;
+
 
 }
 .mes-ingredients {
@@ -111,6 +114,7 @@ body{
     min-height: 200px;
     border-radius: 10px;
     margin-top: 20px;
+
 
 
 
