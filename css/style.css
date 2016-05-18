@@ -1,7 +1,18 @@
-body {
+@font-face {
+    font-family: 'manifesto';
+    src: url('../font/MANIFESTO.ttf');
+}
 
-    background-color: ;
+body{
 
+    height: 100%;
+
+}
+
+.container {
+
+    background-color: #3caa9c;
+    height: 100%;
 }
 
 .autocomplete-selected { display:none }
@@ -15,11 +26,134 @@ body {
 }
 .miss{color:pink}
 #search{
-     min-height: 100px;
+
+    min-height: 100px;
     max-height: auto;
-    width: 80%;
-    margin-left : 10%;
-    border: solid blue;
+
+}
+.barre{
+
+    background-color: #79c8c1;
+    border-radius: 5px;
+    height: 15px;
+    margin-top: 5%;
+
+}
+.titre-appli {
+
+    font-family: 'manifesto';
+    font-size: 2em;
+    color: white;
+    text-align: center;
+
+}
+#add {
+
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.resultat {
+
+
+
+}
+.btn-perso {
+
+    font-family: 'manifesto';
+    color: #3fab9d;
+    background-color: #fff;
+    border: 2px solid #324960;
+}
+.btn-perso:focus,
+.btn-perso.focus {
+
+    color: #3fab9d;
+    background-color: #fff;
+    border-color: #324960;
+}
+.btn-perso:hover {
+
+    color: #3fab9d;
+    background-color: #fff;
+    border-color: #324960;
+}
+.btn-perso:active,
+.btn-perso.active,
+.open > .dropdown-toggle.btn-primary {
+
+    color: #3fab9d;
+    background-color: #fff;
+    border-color: #324960;
+}
+
+.ui-autocomplete{
+
+
+
+    overflow: auto;
+    max-height: 50px;
+    color: white;
+
+
+}
+.result {
+
+    color: #3fab9d;
+    text-align: center;
+
+}
+.mes-ingredients {
+
+    font-family: 'manifesto';
+    background-color: #ff6f7d;
+    min-height: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+
+
+}
+.titre-ingredients {
+
+    font-size: 1.8em;
+    text-align: center;
+    color: #fff;
+    padding-top: 4%;
+
+}
+.result span {
+
+
+    padding-left: 10px;
+    color: red;
+
+}
+.ui-menu-item {
+
+    list-style-type: none;
+    background: url(../img/liste.png) no-repeat 0 5px;
+    padding-left: 20px;
+
+}
+img {
+
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.ui-autocomplete-input {
+
+
+    font-family: 'manifesto';
+    margin-bottom:50px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    color: #8bccc3;
+
 }
 .ui-helper-hidden-accessible{
     display: none
