@@ -92,7 +92,7 @@ background-color: #3caa9c;
 
 
     overflow: auto;
-    max-height: 50px;
+    max-height: 100px;
     color: white;
 
 
@@ -113,6 +113,8 @@ background-color: #3caa9c;
     min-height: 200px;
     border-radius: 10px;
     margin-top: 20px;
+    overflow: auto;
+    max-height: 250px;
 
 
 
@@ -133,9 +135,9 @@ background-color: #3caa9c;
 }
 .result span {
 
-
+    font-weight: bold;
     padding-left: 10px;
-    color: red;
+    color: #630505;
 
 }
 .ui-menu-item {
@@ -155,7 +157,7 @@ img {
 
     padding: 4px 4px 4px 4px;
     font-family: 'manifesto';
-    margin-bottom:50px;
+    margin-bottom:100px;
     font-size: 1.3em;
     border-radius: 5px;
     width: 100%;
@@ -179,7 +181,6 @@ img {
     background-color: #79c8c1;
     border-radius: 5px;
     height: 15px;
-    margin-top: 5%;
-    padding-bottom: 20px;
+    margin-bottom: 5%;
 
 }
