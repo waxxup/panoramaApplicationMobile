@@ -13,14 +13,14 @@ var $local_source = [
                      "cirop de sucre de canne",
                      "eau gazeuse",
                     "sauce worcestershire",
-                     "vodka",
-                     "tabasco",
-                     "sel de celeri",
-                     "sel", 
-                    "poivre", 
-                    "jus de tomate", 
+                    "vodka",
+                    "tabasco",
+                    "sel de celeri",
+                    "sel",
+                    "poivre",
+                    "jus de tomate",
                     "rhum ambre",
-                     "triple sec", 
+                    "triple sec",
                     "sirop d'orgeat"
     
                     ];
