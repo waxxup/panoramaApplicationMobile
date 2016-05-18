@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="9877170c-d497-4c3c-9a23-e6f9ebdb9019" name="Default" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/autocomplete.js" afterPath="$PROJECT_DIR$/js/autocomplete.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
+=======
+>>>>>>> ac6f260285f0b919aa8b8d78dbea0cacc7443031
 =======
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
 <<<<<<< HEAD
@@ -12,6 +19,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
 >>>>>>> 3ac3e275053c0e513f1638a7500a7c31f60a3e2a
+<<<<<<< HEAD
+>>>>>>> fcfce633599e5c69f5c069ebe569beb3f05be91a
+=======
+>>>>>>> ac6f260285f0b919aa8b8d78dbea0cacc7443031
     </list>
     <ignored path="PanoramaAppliMobile.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -316,7 +327,11 @@
     <editor active="true" />
     <layout>
 <<<<<<< HEAD
+<<<<<<< HEAD
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26025918" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10583153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> ac6f260285f0b919aa8b8d78dbea0cacc7443031
 =======
 <<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11147011" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />

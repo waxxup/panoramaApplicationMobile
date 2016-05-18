@@ -176,11 +176,31 @@ img {
 .place::-webkit-input-placeholder {
     color: red
 }
+
+.modal-content {
+    background-color: #ff6f7d;
+}
+
+.modal-content h4 {
+    font-family: 'manifesto';
+    color: white;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.modal-dialog {
+    margin-top: 50%;
+
+}
+
 .barre-bas {
 
     background-color: #79c8c1;
     border-radius: 5px;
     height: 15px;
     margin-bottom: 5%;
-
+    margin-top: 5%;
+    padding-bottom: 20px;
 }
