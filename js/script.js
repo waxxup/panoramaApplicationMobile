@@ -2,6 +2,8 @@ var result = [];
 $('#submit').hide();
 var writtenlog = "";
 var filtre = 1;
+var numberResult;
+$('#ancre').hide();
 
 $("#select").change(function() {
     filtre = $("#select").val();
@@ -42,6 +44,9 @@ function submitFunction(){
     var isOk = 0;
     var missing = [];
     var written = "" ;
+    $('#ancre').hide();
+    numberResult = 0 ;
+    console.log(numberResult);
     document.getElementById("resultats").innerHTML=written;
     if(result.length !== 0){
         for (var i = 0; i < cocktails.length; i++) {
@@ -54,7 +59,7 @@ function submitFunction(){
             }
             if(isOk == 0){
 
-
+                numberResult++;
                 console.log("Nom du cocktail:  " + cocktails[i][0]);
                 document.getElementById("resultats").innerHTML=written + "<h1>" + cocktails[i][0] + "</h1><h2>Recette:</h2><img src='img/" + cocktails[i][(cocktails[i].length - 2)] + "'>";
                 written =  document.getElementById("resultats").innerHTML;
@@ -65,8 +70,7 @@ function submitFunction(){
             }
             else if(isOk < filtre){
 
-
-                console.log("Nom du cocktail:  " + cocktails[i][0]);
+                numberResult++;
                 document.getElementById("resultats").innerHTML=written + "<h1>" + cocktails[i][0] + "</h1><h2>Recette:</h2><img src='img/" + cocktails[i][(cocktails[i].length - 2)] + "'>";
                 written =  document.getElementById("resultats").innerHTML ;
 //                for (var a = 1; a < (cocktails[i].length - 2); a++) {
@@ -78,7 +82,6 @@ function submitFunction(){
 //                }
                 for (var u = 0; u < (cocktails[i][(cocktails[i].length - 1)].length); u++) {
                     var found = $.inArray((parseInt(u) + 1), missing) > -1;
-                    console.log(found);
                     if(found == false){
                         document.getElementById("resultats").innerHTML=written + "<li class='aqui'>" + cocktails[i][[(cocktails[i].length - 1)]][u] + "</li>";
                     }
@@ -90,13 +93,17 @@ function submitFunction(){
 
                 }
             }
-
-
+            
+            
             isOk = 0;
             missing = [];
             written = document.getElementById("resultats").innerHTML + "<div class='barre'></div>";
 
         }
+        if(numberResult !== 0){
+                $('#ancre').show();
+        }
+        console.log(numberResult);
         written = "";
 
     }
@@ -109,14 +116,13 @@ function deleteFunction(param){
     document.getElementById("log").innerHTML="";
     document.getElementById("resultats").innerHTML="";
     writtenlog = "";
-    if(result.length !== 0){
-        console.log(result.length);
-        for (var o = 0; o < (result.length) ; o++) {
-            document.getElementById("log").innerHTML=writtenlog + "<div class='result'>" + result[o] + "<span onclick='deleteFunction("+ o +")' >X</span></div>";
-            writtenlog = document.getElementById("log").innerHTML;
-        }
-        submitFunction();
+    console.log(result.length);
+    for (var o = 0; o < (result.length) ; o++) {
+        document.getElementById("log").innerHTML=writtenlog + "<div class='result'>" + result[o] + "<span onclick='deleteFunction("+ o +")' >X</span></div>";
+        writtenlog = document.getElementById("log").innerHTML;
     }
+    submitFunction();
+    
 }
 
 
