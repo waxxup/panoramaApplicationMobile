@@ -85,7 +85,15 @@
                 </div>
             </div>
         </div>
-    <div id="resultats"></div>
+        <div class="row">
+                <div class="col-md-2 col-md-offset-5 btn-result">
+                    <button class="btn btn-perso" href="#result">Voir les resultats</button>
+                </div>
+            </div>
+    
+    <section id="result">
+        <div id="resultats"></div>
+    </section>
     <div class="row">
         <div class="col-md-12">
             <div class="barre-bas"></div>
@@ -102,6 +110,18 @@
 <script type="text/javascript" charset="utf-8" src="js/script.js"></script>
 <script type="text/javascript" charset="utf-8" src="js/autocomplete.js"></script>
 <script type="text/javascript" charset="utf-8" src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    $('body').scrollspy({ target: '.btn-result' })
+    </script>
+
+    <script type="text/javascript">
+      $('button[href^="#"]').click( function() { // Au clic sur un élément
+        var page = $(this).attr('href'); // Page cible
+        $('html, body').animate( { scrollTop: $(page).offset().top }, "" ); // Go
+        return false;
+      });
+    </script>
 
 </body>
 </html>
