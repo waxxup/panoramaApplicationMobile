@@ -67,7 +67,7 @@ h6,
     background-color: #79c8c1;
     border-radius: 5px;
     height: 15px;
-    margin-top: 5%;
+    margin-top: 10%;
 
 }
 .titre-appli {
@@ -243,4 +243,8 @@ img {
     margin-bottom: 5%;
     margin-top: 5%;
     
+}
+
+#engrenage{
+
 }
