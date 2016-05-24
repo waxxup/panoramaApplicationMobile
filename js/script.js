@@ -11,8 +11,9 @@ $("#select").change(function() {
     submitFunction();
 });
 
-$("#select").change(function() {
-    filtre = $("#select").val();
+$("#select2").change(function() {
+    console.log("azeazeaz");
+    nombreVerre = $("#select2").val();
     submitFunction();
 });
 
