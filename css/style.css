@@ -54,12 +54,33 @@ h6,
 
     
 }
-.miss{color:pink}
-#search{
+.miss{color:red}
 
-    min-height: 100px;
+#search select{
+
+  background-color: #3caa9c;
+  color: white;
+  border-radius: 5px;
+  width: 30%;
+  margin-bottom: 20px;  
 
 
+}
+
+#nbcock {
+    margin-top: 10px;
+}
+
+#nbcock select {
+
+  background-color: #3caa9c;
+  color: white;
+  border-radius: 5px;
+  width: 30%;  
+}
+
+.modal-body {
+    color: white;
 }
 .barre{
 
