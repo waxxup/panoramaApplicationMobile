@@ -1,10 +1,10 @@
 var result = [];
 $('#submit').hide();
 var writtenlog = "";
-var filtre = 1;
+var filtre = $("#select").val();
 var numberResult;
 $('#ancre').hide();
-var nombreVerre = 2;
+var nombreVerre = $("#select2").val();
 
 $("#select").change(function() {
     filtre = $("#select").val();
@@ -93,11 +93,12 @@ function submitFunction(){
                         document.getElementById("resultats").innerHTML=written + "<li class='aqui'>" + cocktails[i][[(cocktails[i].length - nombreVerre)]][u] + "</li>";
                     }
                     else{
-                        document.getElementById("resultats").innerHTML=written + "<li class='miss'>" + cocktails[i][[(cocktails[i].length - nombreVerre)]][u] + "|manquant</li>";
+                        document.getElementById("resultats").innerHTML=written + "<li class='miss'>" + cocktails[i][[(cocktails[i].length - nombreVerre)]][u] + "</li>";
                     }
                     written =  document.getElementById("resultats").innerHTML ;
 
 
+                   
                 }
             }
             

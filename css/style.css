@@ -38,6 +38,7 @@ h6,
     color: white;
     text-transform: uppercase;
     list-style-type: none;
+    text-decoration: line-through;
 }
 
 
@@ -54,7 +55,30 @@ h6,
 
     
 }
-.miss{color:red}
+.legende1 {
+
+    margin-top: 20px;
+    color: white;
+    text-transform: uppercase;
+    list-style-type: none;
+    text-decoration: line-through;
+
+
+}
+.legende2 {
+
+    color: #ff5f47;
+    font-style: italic;
+    list-style-type: none;
+    text-transform: uppercase;
+
+}
+.miss{
+
+    color: #ff5f47;
+    font-style: italic;
+
+}
 
 #search select{
 
@@ -150,7 +174,7 @@ h6,
 }
 .btn-plus {
 
-   
+
     font-weight: bold;
 }
 .btn2{
@@ -309,6 +333,7 @@ img {
 }
 
 #engrenage{
-    margin-top: 65px;
-    margin-left: 25px;
+
+    margin-top: 15px;
+    margin-left: 33px;
 }
