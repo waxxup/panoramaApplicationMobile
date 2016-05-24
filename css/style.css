@@ -54,12 +54,33 @@ h6,
 
     
 }
-.miss{color:pink}
-#search{
+.miss{color:red}
 
-    min-height: 100px;
+#search select{
+
+  background-color: #3caa9c;
+  color: white;
+  border-radius: 5px;
+  width: 30%;
+  margin-bottom: 20px;  
 
 
+}
+
+#nbcock {
+    margin-top: 10px;
+}
+
+#nbcock select {
+
+  background-color: #3caa9c;
+  color: white;
+  border-radius: 5px;
+  width: 30%;  
+}
+
+.modal-body {
+    color: white;
 }
 .barre{
 
@@ -129,7 +150,7 @@ h6,
 }
 .btn-plus {
 
-    font-family: ;
+   
     font-weight: bold;
 }
 .btn2{
@@ -285,4 +306,9 @@ img {
     border: 2px solid #000000;
     color: #3fab9d;
 
+}
+
+#engrenage{
+    margin-top: 65px;
+    margin-left: 25px;
 }
