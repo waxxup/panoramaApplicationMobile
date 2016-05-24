@@ -13,6 +13,13 @@ var cocktails = [
         "7 feuilles de menthe",
         "10cl d'eau gazeuse",
         "1cl de cirop de sucre de canne",
+    ],
+      [
+        "30cl rhum cubain",
+        "15cl jus de citron vert",
+        "feuilles de menthe",
+        "50cl d'eau gazeuse",
+        "5cl de cirop de sucre de canne",
     ]
    ],
     [
@@ -31,6 +38,13 @@ var cocktails = [
         "5cl de lait de coco",
         "2g de canelle",
         "5cl de jus de banane"
+    ],
+        [
+        "30cl de rhum blanc",
+        "35cl de jus d'ananas",
+        "25cl de lait de coco",
+        "10g de canelle",
+        "25cl de jus de banane"
     ]
     ],
 
@@ -49,7 +63,14 @@ var cocktails = [
             "5g de sucre",
             "100g de fraises"
                         
-        ]
+        ],
+        [
+       "30cl de liqueur de fraises",
+            "30cl de rhum blanc",
+            "35cl de jus de citron",
+            "25g de sucre",
+            "500g de fraises"
+    ]
     ],
 
     [
@@ -70,6 +91,15 @@ var cocktails = [
             "1cl de cirop de sucre de canne",
             "3cl de jus de citron",
             "1cl de sirop d'orgeat"
+
+        ],
+        [
+            "154cl de rhum blanc",
+            "15cl de rhum ambre",
+            "10cl de triple sec",
+            "5cl de cirop de sucre de canne",
+            "15cl de jus de citron",
+            "5cl de sirop d'orgeat"
 
         ]
 

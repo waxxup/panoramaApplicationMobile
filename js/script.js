@@ -4,6 +4,12 @@ var writtenlog = "";
 var filtre = 1;
 var numberResult;
 $('#ancre').hide();
+var nombreVerre = 2;
+
+$("#select").change(function() {
+    filtre = $("#select").val();
+    submitFunction();
+});
 
 $("#select").change(function() {
     filtre = $("#select").val();
@@ -50,7 +56,7 @@ function submitFunction(){
     document.getElementById("resultats").innerHTML=written;
     if(result.length !== 0){
         for (var i = 0; i < cocktails.length; i++) {
-            for (var a = 1; a < (cocktails[i].length - 2); a++) {
+            for (var a = 1; a < (cocktails[i].length - 3); a++) {
                 var found = $.inArray(cocktails[i][a], result) > -1;
                 if (found == false){
                     missing.push(a);
@@ -61,17 +67,17 @@ function submitFunction(){
 
                 numberResult++;
                 console.log("Nom du cocktail:  " + cocktails[i][0]);
-                document.getElementById("resultats").innerHTML=written + "<h1>" + cocktails[i][0] + "</h1><h2>Recette:</h2><img src='img/" + cocktails[i][(cocktails[i].length - 2)] + "'>";
+                document.getElementById("resultats").innerHTML=written + "<h1>" + cocktails[i][0] + "</h1><h2>Recette:</h2><img src='img/" + cocktails[i][(cocktails[i].length - 3)] + "'>";
                 written =  document.getElementById("resultats").innerHTML;
                 for (var u = 0; u < (cocktails[i][(cocktails[i].length - 1)].length); u++) {
-                    document.getElementById("resultats").innerHTML=written + "<li class='aqui'>" + cocktails[i][[(cocktails[i].length - 1)]][u] + "</li>";
+                    document.getElementById("resultats").innerHTML=written + "<li class='aqui'>" + cocktails[i][[(cocktails[i].length - nombreVerre)]][u] + "</li>";
                     written =  document.getElementById("resultats").innerHTML;
                 }
             }
             else if(isOk < filtre){
 
                 numberResult++;
-                document.getElementById("resultats").innerHTML=written + "<h1>" + cocktails[i][0] + "</h1><h2>Recette:</h2><img src='img/" + cocktails[i][(cocktails[i].length - 2)] + "'>";
+                document.getElementById("resultats").innerHTML=written + "<h1>" + cocktails[i][0] + "</h1><h2>Recette:</h2><img src='img/" + cocktails[i][(cocktails[i].length - 3)] + "'>";
                 written =  document.getElementById("resultats").innerHTML ;
 //                for (var a = 1; a < (cocktails[i].length - 2); a++) {
 //                    var found = $.inArray(cocktails[i][a], missing) > -1;
@@ -83,10 +89,10 @@ function submitFunction(){
                 for (var u = 0; u < (cocktails[i][(cocktails[i].length - 1)].length); u++) {
                     var found = $.inArray((parseInt(u) + 1), missing) > -1;
                     if(found == false){
-                        document.getElementById("resultats").innerHTML=written + "<li class='aqui'>" + cocktails[i][[(cocktails[i].length - 1)]][u] + "</li>";
+                        document.getElementById("resultats").innerHTML=written + "<li class='aqui'>" + cocktails[i][[(cocktails[i].length - nombreVerre)]][u] + "</li>";
                     }
                     else{
-                        document.getElementById("resultats").innerHTML=written + "<li class='miss'>" + cocktails[i][[(cocktails[i].length - 1)]][u] + "</li>";
+                        document.getElementById("resultats").innerHTML=written + "<li class='miss'>" + cocktails[i][[(cocktails[i].length - nombreVerre)]][u] + "|manquant</li>";
                     }
                     written =  document.getElementById("resultats").innerHTML ;
 
